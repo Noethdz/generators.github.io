@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GENERADORES</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1>
+        GENERADORES CON JS
+    </h1>
+
+    <h3 id="c1"></h3>
+    <div class="passw">
+        <button onclick="gfg_Run()">
+            <span>PASSWORD</span>
+          </button>
+    </div>
+    <br><br>
+
+    <h3 id="c2"></h3>
+    <div class="passww">
+        <button onclick="doPass()">
+            <span>PASS 2</span>
+          </button>
+    </div>
+    <br><br>
+
+    <h3 id="col"></h3>
+    <div class="color">
+        <div class="hex">
+            <span class="tooltiptext" id="text">Copiar Color</span>
+            <span id="hexadecimal" onclick="copiarAlPortapapeles('hexadecimal')">#E8347D</span>
+        </div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="colors">
+            <button id="color" onclick="generarNuevoColor()">
+                <span>COLORS</span>
+              </button>
+        </div>
+    </div>
+    <br><br>
+
+    <h3 id="bot"></h3>
+    <div class="botones">
+        <button onclick="createBtn()">
+            <span>BUTTON</span>
+          </button>
+    </div>
+    <br><br>
+
+    <h3 id="fig"></h3>
+    <div class="figuras">
+        <button onclick="createFigure()" id="figure">
+            <span>FIGURE</span>
+          </button>
+        <canvas id="canvas"></canvas>
+    </div>
+    <section class="nets">
+        <a href="http://www.linkedin.com/in/noe-trejo"><img src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin" id="link"></a>
+        <a href="https://github.com/Noethdz"><img src="https://img.icons8.com/ios-filled/50/github.png" alt="github" id="git"></a>
+
+    </section>
+
+    <script src="pass.js"></script>
+    <script src="pass2.js"></script>
+    <script src="colors.js"></script>
+    <script src="bottom.js"></script>
+    <script src="figure.js"></script>
+
+</body>
+
+</html>
